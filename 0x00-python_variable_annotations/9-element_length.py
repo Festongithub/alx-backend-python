@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-from typing import List, Callable, Mapping, MutableMapping, Sequence, Iterable
+"""Duck types"""
 
-"""Duck Type an iterable object """
-
+from typing import Mapping, MutableMapping, Iterable, Sequence, List, Tuple
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Returns elements Length"""
