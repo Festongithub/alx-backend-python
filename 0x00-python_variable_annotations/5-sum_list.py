@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
+"""Complex"""
 
 from typing import List
-
-"""Takes sum of list"""
 
 
 def sum_list(input_list: List[float]) -> float:
