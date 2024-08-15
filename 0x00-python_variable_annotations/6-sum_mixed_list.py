@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+"""Mixed lists"""
+
 from typing import Callable, Iterator, Union, List
-"""Complex sum lists"""
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
