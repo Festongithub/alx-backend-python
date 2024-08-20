@@ -3,7 +3,7 @@
 
 
 import asyncio
-from  random import  uniform
+from random import uniform
 from typing import Generator
 
 
